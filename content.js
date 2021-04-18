@@ -10,6 +10,14 @@ $(document).ready(function() {
         'padding': '0px'
     });
     $('.slide .slide-content').css('display', 'block');
+    $('.tab_container audio').css({
+        'position': 'fixed',
+        'top': '140px',
+        'right': '0px',
+        'border': '1px solid red',
+        'background-color': 'red',
+        'z-index': '10'
+    });
 });
 
  
